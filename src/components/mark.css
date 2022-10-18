@@ -1,0 +1,29 @@
+.mark {
+  position: absolute;
+  transform: translateX(-50%)
+}
+
+.mark .point {
+  width: 5px;
+  height: 5px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.mark .text {
+  background: rgba(0, 0, 0, .3);
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 8px;
+  display: none;
+}
+
+.mark .text.visible {
+  display: block;
+}
+
+
+
